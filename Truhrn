@@ -14,14 +14,3 @@ if __name__ == "__main__":
 
     # Ausgabe der erkannten Sprache und der Zuversichtlichkeit
     print(f"Erkannte Sprache: {language}, Zuversichtlichkeit: {confidence}")
-
-    # Aufruf der Funktion zur Spracherkennung
-    language, confidence = detect_language(text_to_detect)
-    # Aufruf der Funktion zur Spracherkennung
-    language, confidence = detect_language(text_to_detect)
-    # Aufruf der Funktion zur Spracherkennung
-    language, confidence = detect_language(text_to_detect)
-    # Aufruf der Funktion zur Spracherkennung
-    language, confidence = detect_language(text_to_detect)
-    # Aufruf der Funktion zur Spracherkennung
-    language, confidence = detect_language(text_to_detect)
