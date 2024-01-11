@@ -15,21 +15,3 @@ if __name__ == "__main__":
     # Ausgabe der erkannten Sprache und der Zuversichtlichkeit
     print(f"Erkannte Sprache: {language}, Zuversichtlichkeit: {confidence}") # Aufruf der Funktion zur Spracherkennung
     language, confidence = detect_language(text_to_detect)
-
-    # Ausgabe der erkannten Sprache und der Zuversichtlichkeit
-    print(f"Erkannte Sprache: {language}, Zuversichtlichkeit: {confidence}")
-def detect_language(text):
-    # Verwende die langid-Bibliothek, um die Sprache des Textes zu erkennen
-    result, confidence = langid.classify(text)
-    return result, confidence
-
-if __name__ == "__main__":
-    # Benutzer wird aufgefordert, Text einzugeben, dessen Sprache erkannt werden soll
-    text_to_detect = input("Geben Sie den Text zur Spracherkennung ein: ")def detect_language(text):
-    # Verwende die langid-Bibliothek, um die Sprache des Textes zu erkennen
-    result, confidence = langid.classify(text)
-    return result, confidence
-
-if __name__ == "__main__":
-    # Benutzer wird aufgefordert, Text einzugeben, dessen Sprache erkannt werden soll
-    text_to_detect = input("Geben Sie den Text zur Spracherkennung ein: ")
