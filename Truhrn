@@ -7,12 +7,7 @@ def detect_language(text):
 
 if __name__ == "__main__":
     # Benutzer wird aufgefordert, Text einzugeben, dessen Sprache erkannt werden soll
-    text_to_detect = input("Geben Sie den Text zur Spracherkennung ein: ")
-
-    # Aufruf der Funktion zur Spracherkennung
-    language, confidence = detect_language(text_to_detect)import langid
-
-def detect_language(text):
+    text_to_detect = input("Geben Sie den Text zur Spracherkennung ein: "
     # Verwende die langid-Bibliothek, um die Sprache des Textes zu erkennen
     result, confidence = langid.classify(text)
     return result, confidence
